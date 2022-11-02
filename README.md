@@ -1,10 +1,7 @@
 # VanillaWebsite
 Basic Node Website to be used for teaching
 
-# Hello World with Basic HTML, CSS JavaScript
-
-Start coding quicly by opening this template in gitpod:
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/geeklady2/ICT580-gitpod.setup)
+This is an empty repository.  Code is to be filled into index.html, form.html and style.css to complete the assignment.
 
 ### Manual Installation
 
@@ -34,6 +31,7 @@ Since this course focuses on HTML/CSS and there are two main places as follows:
 
 1. HTML`./src/index.html` 
 2. CSS `./src/assets/style/index.css` 
+3. Images `./src/assets/img` 
 
 New CSS should be placed in the `assets/style` directory.
 
