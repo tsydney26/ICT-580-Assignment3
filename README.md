@@ -1,4 +1,4 @@
-# VanillaWebsite
+# VanillaWebsite for Assignment 3
 Basic Node Website to be used for teaching
 
 This is an empty repository.  Code is to be filled into index.html, form.html and style.css to complete the assignment.
