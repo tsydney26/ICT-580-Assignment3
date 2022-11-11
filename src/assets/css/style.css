@@ -1,0 +1,105 @@
+@media only screen and (min-width: 992px) {
+}
+body {
+  background: linear-gradient(rgb(241, 227, 245), #e5f4ef, #dff1f1, #deeef3, #acc8eb, #a3a4ec);
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  background-color: #e4e4f5;
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid rgb(9, 0, 0);
+  border-radius: 8px;
+  padding: 5px;
+  width: 20%;
+}
+/* Added an image hover color shadow effect */
+img:hover {
+  box-shadow: 0 0 20px 10px rgba(1, 46, 61, 0.5);
+  opacity: 0.7;
+}
+
+/* unvisited link */
+a:link {
+  color:purple;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: black;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+h1 {
+  color: black;
+  text-align: center;
+}
+h1 {
+  text-shadow: 2px 2px lightblue;
+}
+
+h2 {
+  color: black;
+  text-align: center;
+}
+h3 {
+  color: black;
+  text-align: center;
+}
+
+p {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15px;
+    color: black;
+    text-align: center;
+}
+
+.header {
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(244, 234, 246);
+  font-size: 20px;
+  color: rgb(11, 10, 10);
+  }
+
+p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.sub-header {
+  grid-template-columns: auto;
+  text-align: left;
+  padding: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+  background-color: rgb(217, 237, 244);
+  font-size: 15px;
+  color: rgb(11, 10, 10);
+  }
+ 
+ 
