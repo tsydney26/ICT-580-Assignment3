@@ -50,63 +50,86 @@
       building long-lasting business relationships.
     </p>
   </div>
+
   <!-- Added to define this section in the document -->
   <hr />
-  <section class="flex-container">
-    <section class="sub-header 1">
-    <nav>
-  <h2 title="This is a header">Skills</h2>
-  <ul>
-    <li>High Level Sales Proficiency</li>
-    <li>Cost Savings & Reduction</li>
-    <li>Negotiation Tactics</li>
-    <li>Integrity-Based Selling</li>
-    <li>Strategic Business Planning</li>
-    <li>Revenue & Profit Growth</li>
-    <li>Target Markets & Brand Performance</li>
-  </ul>
-</nav>
-    </section>
-  </section>
-<br />
-
-  <section class="flex-container">
-    <section class="sub-header 2">
-    <aside>
-  <h2 title="This is a header">Education</h2>
-  <ul>
-    <li>
-      <b>Digital Media & Marketing (Certificate)</b>, University of Calgary Sept
-      2022 - Present
-    </li>
-    <li>
-      <b>Bachelor of Business Administration</b>, UWI (Roytec), University of
-      New Brunswick, 2012
-    </li>
-  </ul>
-</aside>
-</section>
-</section>
-  <br />
-
-  <section class="flex-container">
-    <section class="sub-header 3">
-    <nav>
-  <h2>Professional Development & Courses</h2>
-  <ul>
-    <li>
-      Creative Problem Solving, Arthur Lok Jack Global School of Business
-    </li>
-    <li>Analytical Thinking, Arthur Lok Jack Global School of Business</li>
-    <li>Unilever Selling Foundation Course, USF (Internal Training)</li>
-    <li>Train the Trainer (Internal Training)</li>
-    <li>Microsoft Office User Specialist</li>
-  </ul>
-</nav>
-</section>
-</section>
-  <hr />
-
+  <div style="text-align:center">
+    <h2>Qualficiations</h2>
+  </div>
+  
+  <!-- Three columns -->
+  <div class="row">
+    <div class="column" onclick="openTab('b1');" style="background-color:rgb(236, 210, 234)">
+      Skills
+    </div>
+    <div class="column" onclick="openTab('b2');" style="background-color:rgb(236, 210, 234)">
+      Education
+    </div>
+    <div class="column" onclick="openTab('b3');" style="background-color:rgb(236, 210, 234)">
+      Professional Development & Courses 
+    </div>
+  </div>
+  
+  <!-- Full-width columns: (hidden by default) -->
+  <div id="b1" class="containerTab" style="display:none;background:rgb(189, 151, 211)">
+    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+    <h2>Skills</h2>
+    <ul>
+      <li>High Level Sales Proficiency</li>
+      <li>Cost Savings & Reduction</li>
+      <li>Negotiation Tactics</li>
+      <li>Integrity-Based Selling</li>
+      <li>Strategic Business Planning</li>
+      <li>Revenue & Profit Growth</li>
+      <li>Target Markets & Brand Performance</li>
+    </ul>
+    <br/>
+  </div>
+  
+  <div id="b2" class="containerTab" style="display:none;background:rgb(189, 151, 211)">
+    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+    <h2>Education</h2>
+      <ul>
+        <li>
+          <b>Digital Media & Marketing (Certificate)</b>, University of Calgary Sept
+          2022 - Present
+        </li>
+        <li>
+          <b>Bachelor of Business Administration</b>, UWI (Roytec), University of
+          New Brunswick, 2012
+        </li>
+      </ul>
+      <br/>
+  </div>
+  
+  <div id="b3" class="containerTab" style="display:none;background:rgb(189, 151, 211)">
+    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+    <h2>Professional Development & Courses</h2>
+    <ul>
+      <li>
+        Creative Problem Solving, Arthur Lok Jack Global School of Business
+      </li>
+      <li>Analytical Thinking, Arthur Lok Jack Global School of Business</li>
+      <li>Unilever Selling Foundation Course, USF (Internal Training)</li>
+      <li>Train the Trainer (Internal Training)</li>
+      <li>Microsoft Office User Specialist</li>
+    </ul>
+    <br/>
+  </div>
+  
+  <script>
+  function openTab(tabName) {
+    var i, x;
+    x = document.getElementsByClassName("containerTab");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    document.getElementById(tabName).style.display = "block";
+  }
+  </script>
+  
+  
+<hr>
   <h2 title="This is a header">PROFESSIONAL EXPERIENCE</h2>
   <hr />
   <h3>UNILEVER CARIBBEAN LIMITED, Trinidad, WI</h3>
@@ -183,9 +206,11 @@
     </li>
   </ul>
   <hr />
-
+  <div class="grid-container">
+    <div class="Footer">
   <h3>References</h3>
   <p>References to be provided upon request</p>
+    </div>
+  </div>
 </body>
 </html>
-
